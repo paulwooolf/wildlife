@@ -23,7 +23,7 @@ ul, li {
 }
 
 header {
-    height: 100px;
+    height: 98px;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -36,7 +36,7 @@ header {
     height: auto;
     display: flex;
     width: 100%;
-    margin: 60px auto 120px;
+    margin: 65px auto 120px;
     max-width: 1200px;
 }
 
@@ -56,6 +56,7 @@ header {
 .head-nav {
     display: flex;
     align-items: center;
+    height: 100px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -65,9 +66,14 @@ header {
     font-size: 23px;
 }
 
+
 .head-nav ul li {
-    margin-right: 65px;
+    margin-right: 66px;
     padding: 8px 0;
+}
+
+.head-nav ul li:first-child {
+    margin-right: 64px;
 }
 
 .head-nav ul li:last-child {
@@ -76,7 +82,7 @@ header {
 }
 
 button, .submit-button {
-    padding: 17px 42px;
+    padding: 17px 43px;
     font-size: 23px;
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -98,7 +104,8 @@ button:hover, .submit-button:hover {
     border: 2px solid #CD6326;
     border-radius: 5px;
     cursor: pointer;
-    padding: 7px 23px;
+    padding: 10px 24px 9px 24px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .button:hover {
@@ -135,7 +142,7 @@ main aside h1 {
     color: white;
     font-size: 18px;
     line-height: 27px;
-    margin: 55px 0 50px 0;
+    margin: 54px 0 50px 0;
 }
 
 .second-block {
