@@ -297,3 +297,33 @@ footer {
     font-size: 23px;
     font-family: 'Open Sans', sans-serif;
 }
+
+.footer-nav nav ul li a:hover {
+    color: #CCCCCC;
+}
+
+.ico {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.ico:hover {
+    opacity: .7;
+}
+
+.facebook-ico {
+    background: url('assets/networks/facebook.svg') no-repeat center;
+}
+
+.instagram-ico {
+    background: url('assets/networks/instagram.svg') no-repeat center;
+}
+
+.pinterest-ico {
+    background: url('assets/networks/pinterest.svg') no-repeat center;
+}
+
+.telegram-ico {
+    background: url('assets/networks/telegram.svg') no-repeat center;
+}
