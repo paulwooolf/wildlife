@@ -135,7 +135,7 @@ main aside h1 {
 
 .second-block {
     margin: 0 auto;
-    height: 1368px;
+    min-height: 1368px;
     display: flex;
     flex-direction: column;
     background: #CCCCCC;
@@ -256,11 +256,12 @@ footer {
     max-width: 1200px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .footer-logo-block {
-    flex: 1 1 25%;
+    flex: 1 1 22%;
 }
 
 .footer-nav nav {
@@ -270,7 +271,7 @@ footer {
 }
 
 .footer-nav .networks {
-    flex: 1 1 25%;
+    flex: 1 1 22%;
 }
 
 .footer-nav .networks ul {
@@ -288,4 +289,6 @@ footer {
 
 .footer-nav nav ul li a {
     color: #F7F7F7;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
 }
