@@ -9,6 +9,10 @@ html, body {
     padding: 0;
 }
 
+ul, li {
+    list-style: none;
+}
+
 .first-block {
     margin: 0 auto;
     height: 779px;
@@ -36,7 +40,7 @@ header {
     max-width: 1200px;
 }
 
-.logo-block {
+.logo-block, .footer-logo-block {
     display: flex;
     align-items: center;
     font-family: 'Roboto', sans-serif;
@@ -55,7 +59,7 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
-.head-nav ul {
+.head-nav ul, .footer-nav ul {
     display: flex;
     list-style: none;
     font-size: 23px;
@@ -97,12 +101,12 @@ button:hover {
     background-color: #CD6326;
 }
 
-.head-nav ul li a {
+ul li a {
     color: white;
     text-decoration: none;
 }
 
-.head-nav ul li a:hover {
+ul li a:hover {
     color: #ccc;
 }
 
@@ -188,6 +192,7 @@ main aside h1 {
     max-width: 1100px;
     width: 100%;
     margin: 0 auto;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
 }
@@ -230,11 +235,57 @@ main aside h1 {
 .email-input input {
     max-width: 540px;
     width: 100%;
-    /*height: 60px;*/
     background: #cccccc;
     border: solid 1px #666666;
     border-right: none;
     font-size: 23px;
     font-family: 'Roboto', sans-serif;
     padding: 15px;
+}
+
+footer {
+    height: 360px;
+    background: url('assets/footer.jpg') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo-block {
+    flex: 1 1 25%;
+}
+
+.footer-nav nav {
+    flex: 1 1 50%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-nav .networks {
+    flex: 1 1 25%;
+}
+
+.footer-nav .networks ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-nav .networks ul li {
+    margin-left: 27px;
+}
+
+.footer-nav nav ul li {
+    margin-left: 85px;
+}
+
+.footer-nav nav ul li a {
+    color: #F7F7F7;
 }
