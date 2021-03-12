@@ -75,7 +75,7 @@ header {
     padding: 0;
 }
 
-button {
+button, .submit-button {
     padding: 17px 42px;
     font-size: 23px;
     font-family: 'Roboto', sans-serif;
@@ -86,7 +86,11 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.submit-button {
+    border-radius: 0;
+}
+
+button:hover, .submit-button:hover {
     background-color: #E69029;
 }
 
@@ -124,6 +128,7 @@ main aside h1 {
     color: #CD6326;
     font-weight: normal;
     margin-bottom: 51px;
+    letter-spacing: 2px;
 }
 
 .main-content {
@@ -149,13 +154,13 @@ main aside h1 {
     width: 100%;
 }
 
-.second-block main h1 {
+.second-block main h2 {
     font-size: 48px;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
 }
 
-.second-block main h2 {
+.second-block main p {
     font-family: 'Open Sans', sans-serif;
     font-size: 27px;
     font-weight: normal;
@@ -232,7 +237,7 @@ main aside h1 {
     border-radius: 0;
 }
 
-.email-input input {
+.email-input input[type='text'] {
     max-width: 540px;
     width: 100%;
     background: #cccccc;
